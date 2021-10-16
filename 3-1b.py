@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import norm
-from scipy.stats import kstest
 
 rng = np.random.default_rng(250198)
 r = rng.uniform(size=[1000, 12])
